@@ -1,0 +1,37 @@
+# --- Web & API (FastAPI) ---
+fastapi
+uvicorn[standard]
+python-multipart
+python-dotenv
+pydantic[email]
+email-validator
+
+# --- Database & Auth ---
+sqlalchemy
+psycopg2-binary
+passlib[bcrypt]
+python-jose[cryptography]
+
+# --- AI & Summarization (BART) ---
+transformers
+torch
+datasets
+accelerate
+rouge-score
+
+# --- Speech-to-Text (Whisper) ---
+openai-whisper
+setuptools-rust
+
+# --- NLP & Entities (spaCy) ---
+spacy
+loguru
+
+# --- Data Science Tools ---
+numpy
+pandas
+scikit-learn
+
+#run on your terminal
+#pip install openai-whisper setuptools-rust
+#Quick Check: Type ffmpeg -version in your CMD. If you get an error, you'll need to download it from ffmpeg.org and add it to your System PATH.
